@@ -122,6 +122,7 @@
 #### Az.Automation
 * Fixed New-AzAutomationSoftwareUpdateConfiguration cmdlet bug for Inclusions. Now parameter IncludedKbNumber and IncludedPackageNameMask should work.
 * Bug fix for azure automation update management dynamic group
+* Fixed New-AzAutomationUpdateManagementAzureQuery cmdlet parameter name Location. Was called Locaton, is now Location.
 
 #### Az.Compute
 * Add HyperVGeneration parameter to New-AzDiskConfig and New-AzSnapshotConfig
@@ -158,6 +159,7 @@
     - Set-AzStorageBlobContent
     - Get-AzStorageFileContent
     - Set-AzStorageFileContent
+    
 
 ## 1.6.0 - March 2019
 ### Highlights since the last major release
