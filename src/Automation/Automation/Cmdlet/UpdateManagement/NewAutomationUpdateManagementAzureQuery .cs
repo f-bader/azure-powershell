@@ -34,6 +34,7 @@ namespace Microsoft.Azure.Commands.Automation.Cmdlet.UpdateManagement
         [ValidateNotNull]
         public string[] Scope { get; set; }
 
+        [CmdletParameterBreakingChange("Locaton", ReplaceMentCmdletParameterName = "Location")]
         [Parameter(Mandatory = false, HelpMessage = "List of locations for azure virtual machines.")]
         public string[] Locaton { get; set; }
 
