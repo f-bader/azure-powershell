@@ -159,7 +159,6 @@
     - Set-AzStorageBlobContent
     - Get-AzStorageFileContent
     - Set-AzStorageFileContent
-    
 
 ## 1.6.0 - March 2019
 ### Highlights since the last major release
